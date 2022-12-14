@@ -92,7 +92,7 @@ class _masuk_screenState extends State<masuk_screen> {
           ),
           // Container BG Putih----------------------------------------------------------------
           Container(
-              margin: EdgeInsets.only(top: 13),
+              margin: EdgeInsets.only(top: 40),
               // decoration: BoxDecoration(borderRadius: BorderRadius.circular(4)),
               decoration: BoxDecoration(
                   color: Colors.white, borderRadius: BorderRadius.circular(25)),

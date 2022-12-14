@@ -44,12 +44,22 @@ class _menuState extends State<menu> {
               children: [
                 Container(
                   margin: EdgeInsets.only(left: 35),
-                  width: 52,
-                  height: 52,
-                  decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(100)),
+                  child: ClipOval(
+                    child: Image(
+                        width: 52,
+                        height: 52,
+                        image: AssetImage('images/foto.jpeg'),
+                        fit: BoxFit.cover),
+                  ),
                 ),
+                // Container(
+                //   margin: EdgeInsets.only(left: 35),
+                //   width: 52,
+                //   height: 52,
+                //   decoration: BoxDecoration(
+                //       color: Colors.white,
+                //       borderRadius: BorderRadius.circular(100)),
+                // ),
                 Container(
                   margin: EdgeInsets.only(left: 20),
                   child: Column(
@@ -66,7 +76,7 @@ class _menuState extends State<menu> {
                       Text(
                         'Jangan lupa belajar',
                         style: TextStyle(
-                            color: Color.fromARGB(255, 177, 177, 177),
+                            color: Color.fromARGB(255, 223, 222, 222),
                             fontSize: 16,
                             fontFamily: "Poppins-SemiBold"),
                       ),
